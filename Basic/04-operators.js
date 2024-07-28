@@ -85,6 +85,7 @@ Falsy values (valores falsos)
 // Operadores lógicos
 
 // and (&&)
+console.log ("")
 console.log(5 > 10 && 15 > 20)
 console.log(5 < 10 && 15 < 20)
 console.log(5 < 10 && 15 > 20)
