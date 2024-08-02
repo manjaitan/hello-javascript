@@ -55,6 +55,17 @@ console.log ("Es => " + TestExistMap.has("5"))
 
 // 9. Añade al mapa una clave con un array que almacene los meses de verano
 
+let NewMap = new Map()
+
+NewMap = new Map ([
+    ["name" , "Angel"],
+    ["edad" , 45],
+    ["modo" , "dev"]
+])
+
+
+
+console.log (NewMap)
 
 // 10. Crea un Array, transfórmalo a un Set y almacénalo en un Map
 
