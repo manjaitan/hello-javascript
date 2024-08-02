@@ -2,6 +2,7 @@
 Clase 3 en vídeo | 24/07/2024
 Condicionales, arrays y sets
 https://www.twitch.tv/videos/2206228701?t=00h16m02s
+
 */
 
 // Array
@@ -16,8 +17,8 @@ console.log(myArray2)
 
 // Inicialización
 
-myArray = [3]
-myArray2 = new Array(3)
+myArray = [3] // Crea un array con una elemento 3.
+myArray2 = new Array(3) // Reserva huecos vacíos.
 
 console.log(myArray)
 console.log(myArray2)
