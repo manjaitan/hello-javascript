@@ -57,18 +57,16 @@ console.log (contador)
 
 // 6. Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto
 
-let CadenaTexto = 'Developmentaeio'
-let contador = 0
+let myArray = [1,2,3,4,5,6]
+let resultado = 0
 
-for (const element of CadenaTexto) {
-    
-    if (element == "a" || element == "e" || element == "i" || element == "o" || element == "u"  || 
-        element == "A" || element == "E" || element == "I" || element == "o" || element == "u") {
-        contador = contador + 1
-    }
+for (let index = 0; index < myArray.length; index++) {
+    let anterior = myArray[index]
+    resultado = anterior * myArray[index]
+    console.log(resultado)
 }
 
-console.log (contador)
+console.log (resultado)
 
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5
 
